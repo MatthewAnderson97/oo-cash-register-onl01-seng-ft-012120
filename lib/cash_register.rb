@@ -33,7 +33,7 @@ class CashRegister
     @items
   end
 
-  def describe '#void_last_transaction' do
+  def void_last_transaction' do
     it 'subtracts the last item from the total' do
       cash_register.add_item("apple", 0.99)
       cash_register.add_item("tomato", 1.76)
