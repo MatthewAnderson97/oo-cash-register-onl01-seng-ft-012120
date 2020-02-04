@@ -33,12 +33,9 @@ class CashRegister
     @items
   end
 
- describe '#void_last_transaction' do
-    it 'subtracts the last item from the total' do
-      cash_register.add_item("apple", 0.99)
-      cash_register.add_item("tomato", 1.76)
-      cash_register.void_last_transaction
-      expect(cash_register.total).to eq(0.99)
+ def void_last_transaction do
+    cash_register.void_last_transaction
+    
     end
 
     it 'returns the total to 0.0 if all items have been removed' do
