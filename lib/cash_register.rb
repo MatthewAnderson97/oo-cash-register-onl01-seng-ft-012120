@@ -38,5 +38,6 @@ class CashRegister
     if self.total = 0.0
       return self.total
   end
+end
  
 end
