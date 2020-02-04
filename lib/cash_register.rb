@@ -37,6 +37,7 @@ class CashRegister
     self.total = @total - @transactions.pop
     if self.total = 0.0
       return self.total
+      total.chomp
   end
 end
  
