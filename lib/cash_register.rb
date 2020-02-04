@@ -33,9 +33,4 @@ class CashRegister
     @items
   end
 
- def void_last_transaction 
-    cash_register.void_last_transaction
-    
-    end
-
-end
+ 
