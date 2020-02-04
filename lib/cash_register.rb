@@ -38,3 +38,4 @@ class CashRegister
   end
   self.total
 end
+end
