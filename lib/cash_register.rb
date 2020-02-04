@@ -18,12 +18,7 @@ attr_accessor :total, :discount
 	   self.total = self.total + price * quantity
 	   quantity.times{ @cart << title} 
 
-		# if quantity == 0
-		#    self.total = self.total + price 
-		# else 
-		# 	self.total = self.total + price * quantity
-		# end
-		#  quantity > 0 ? quantity.times{ @cart << title} : 1.times{ @cart << title} 
+	
 	end
 
 	def void_last_transaction
